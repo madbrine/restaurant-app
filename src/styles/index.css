@@ -16,11 +16,17 @@ body {
   --text-color-1: #1A2024;
   --text-color-2:  #303940;
   --text-color-3: #48535B;
+  --placeholder-color: #9aa6ac;
 
   --border-color: #E5E9EB;
   --border-color-2: #EEF0F2;
 
   --info-color: #6E8BB7;
+
+  overflow-y: hidden;
+}
+body, input {
+  outline: none;
 }
 body, button {
   border: none;
@@ -29,3 +35,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* хром, сафари */
+::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+body { -ms-overflow-style: none; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+body { overflow: -moz-scrollbars-none; }

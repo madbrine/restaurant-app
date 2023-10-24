@@ -1,0 +1,33 @@
+.container {
+
+    width: 326px;
+    margin-right: 16px;
+}
+.orders-list {
+    padding: 8px 8px 8px 8px;
+    background-color: var(--border-color-2);
+    border-radius: 0px 0px 10px 10px;
+    overflow-y: scroll;
+    display: grid;
+    gap: 8px;
+}
+.new-header {
+    padding: 12px;
+    background-color: var(--primary-color);
+    border-radius: 10px 10px 0px 0px;
+}
+.waiting-header {
+    padding: 12px;
+    background-color: var(--waiting-color);
+    border-radius: 10px 10px 0px 0px;
+}
+.ready-header {
+    padding: 12px;
+    background-color: var(--ready-color);
+    border-radius: 10px 10px 0px 0px;
+}
+.delivery-header {
+    padding: 12px;
+    background-color: var(--delivered-color);
+    border-radius: 10px 10px 0px 0px;
+}

@@ -1,4 +1,5 @@
 import MainMenuModule from "../../modules/MainMenuModule";
+import TaskBoardModule from "../../modules/TaskBoardModule";
 import ButtonUI from "../../ui/ButtonUI";
 import IconUI from "../../ui/IconUI";
 
@@ -6,13 +7,18 @@ function HomePage() {
 
     const routes = [
         {
-            module: <ButtonUI type="positive-fill" text={"Enter"}/>, 
-            icon: <IconUI name={"watch"}/>
-        }
+            module: <TaskBoardModule/>, 
+            icon: 'analytics'
+        },
+        {
+            module: <ButtonUI type="positive" text={"Enter"}/>, 
+            icon: 'settings',
+            bottom: true
+        },
     ]
 
     return (
-        <div>
+        <div style={{height: '100vh'}}>
             <MainMenuModule routes={routes} />
         </div>
     );

@@ -1,0 +1,15 @@
+.container {
+    padding: 10px;
+    flex: 1 0 0;
+    width: 36px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 16px;
+
+    background-color: var(--background-color);
+    border-left: solid 1px var(--border-color);
+    border-right: solid 1px var(--border-color);
+}
