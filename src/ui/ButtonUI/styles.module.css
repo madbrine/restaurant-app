@@ -1,0 +1,73 @@
+.positive {
+    height: 36px;
+    flex: 1;
+    padding: 4px 12px 4px 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    background-color: var(--background-color);
+    border: solid 1px var(--primary-color);
+    border-radius: 6px;
+
+    color: var(--primary-color);
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+.positive-svg {
+    fill: var(--primary-color)
+}
+
+.positive-fill {
+    height: 36px;
+    flex: 1;
+    padding: 4px 12px 4px 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    background-color: var(--primary-color);
+    border-radius: 6px;
+
+    color: var(--background-color);
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+.positive-fill-svg {
+    fill: var(--background-color)
+}
+
+.cancel {
+    height: 36px;
+    flex: 1;
+    padding: 4px 12px 4px 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    background-color: var(--background-color);
+    border: solid 1px var(--border-color);
+    border-radius: 6px;
+
+    color: var(--negative-color);
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+.cancel-svg {
+    fill: var(--negative-color)
+}
